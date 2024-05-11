@@ -54,8 +54,7 @@ while True:
         bb = random.randint(3, 5)
 
         tt = random.randint(3, 5)
-        tz = timezone('Europe/Lisbon')
-        ha = datetime.now(tz)
+        ha = datetime.now()
         na = random.randint(5, 7)
         ta = timedelta(minutes=na)
         nh = ha + ta
@@ -79,7 +78,7 @@ Aposte com:  {bb} 💣
         bot.send_message(chat_id=user_id, text=(
             msg), parse_mode='MARKDOWN', disable_web_page_preview=True)
         while True:
-            hc = datetime.now(tz).strftime('%H:%M')
+            hc = datetime.now().strftime('%H:%M')
             if hc == nh:
                 bot.send_message(chat_id=user_id, text=(f'''✅ Sinal Expirado.'''))
                 na = random.randint(120, 300)
