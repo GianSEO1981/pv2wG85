@@ -53,7 +53,8 @@ while True:
         bb = random.randint(3, 5)
 
         tt = random.randint(3, 5)
-        ha = datetime.now()
+        tz = timezone('Europe/Lisbon')
+        ha = datetime.now(tz)
         na = random.randint(5, 7)
         ta = timedelta(minutes=na)
         nh = ha + ta
