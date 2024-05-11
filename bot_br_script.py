@@ -12,7 +12,7 @@ TOKEN = '6949496666:AAFLisICFUiuEGAiZMnW4QZCfPy5WUBvrQE'
 ID_DO_CHAT = '-1002112118428'
 
 # Seu link personalizado
-LINK_COMUM = 'https://bit.ly/FORTUNEVIP'
+LINK_COMUM = 'https://bit.ly/FORTUNE-VP'
 
 # Lista de mensagens personalizadas
 messages_fortune_tiger = [
