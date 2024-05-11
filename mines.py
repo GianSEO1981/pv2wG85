@@ -79,7 +79,7 @@ Aposte com:  {bb} 💣
         bot.send_message(chat_id=user_id, text=(
             msg), parse_mode='MARKDOWN', disable_web_page_preview=True)
         while True:
-            hc = datetime.now().strftime('%H:%M')
+            hc = datetime.now(tz).strftime('%H:%M')
             if hc == nh:
                 bot.send_message(chat_id=user_id, text=(f'''✅ Sinal Expirado.'''))
                 na = random.randint(120, 300)
