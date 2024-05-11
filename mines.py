@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import random
 import telebot
 import time
+from pytz import timezone
 
 chat_id = "6949496666:AAFLisICFUiuEGAiZMnW4QZCfPy5WUBvrQE"
 user_id = "-1002112118428"
