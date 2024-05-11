@@ -7,7 +7,7 @@ from pytz import timezone
 chat_id = "6949496666:AAFLisICFUiuEGAiZMnW4QZCfPy5WUBvrQE"
 user_id = "-1002112118428"
 
-LINK_SITE = '[JOGUE AGORA](https://bit.ly/FORTUNEVIP)'
+LINK_SITE = '[JOGUE AGORA](https://bit.ly/FORTUNE-VP)'
 
 bot = telebot.TeleBot(token=chat_id)
 
